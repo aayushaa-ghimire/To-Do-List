@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import TodoInput from './components/TodoInput'
-import TodoList from './components/TodoList'
-import TodoStats from './components/TodoStats'
+import TodoInput from './Components/TodoInput'
+import TodoList from './Components/TodoList'
+import TodoStats from './Components/TodoStats'
 
 export default function App() {
   const [todos, setTodos] = useState([])
